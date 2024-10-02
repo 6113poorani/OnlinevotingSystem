@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+     background-image: url('https://news.mit.edu/sites/default/files/images/202002/Voting-Security.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+	position: relative; 
+    left: -200px; 
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #008000;
+}
+
+
